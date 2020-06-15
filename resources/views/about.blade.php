@@ -1,49 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Followhub | About</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
-
-    <!-- plugin scripts -->
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,500,600,700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/gilroy-extrabold.css">
-    <link rel="stylesheet" href="assets/css/gilroy-light.css">
-    <link rel="stylesheet" href="assets/css/gilroy-semibold.css">
-    <link rel="stylesheet" href="assets/css/gilroy-bold.css">
-
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
-
-
-
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-
-
-
-
-
-
-</head>
-
-<body>
+@extends("layouts.app2")
+@section("title")
+    About
+@endsection
+@section("content")
     <div class="preloader">
         <img src="assets/images/loader.png" class="preloader__image" alt="">
     </div><!-- /.preloader -->
@@ -60,19 +19,19 @@
                     <div class="main-nav__main-navigation">
                         <ul class=" main-nav__navigation-box">
                             <li class="">
-                                <a href="index.blade.php">Home</a>
+                                <a href="{{route('index')}}">Home</a>
                             </li>
                             <li class="">
-                                <a href="programs.html">Programs</a>
+                                <a href="program.blade.php">Programs</a>
                             </li>
                             <li class="">
-                                <a href="events.blade.php">Events</a>
+                                <a href="{{route('events')}}">Events</a>
                             </li>
                             <li>
-                                <a href="about.html">About</a>
+                                <a href="{{route('about')}}">About</a>
                             </li>
                             <li class="">
-                                <a href="blog.html">Blog</a>
+                                <a href="blog.blade.php">Blog</a>
                             </li>
                         </ul>
                     </div><!-- /.main-nav__main-navigation -->
@@ -323,25 +282,4 @@
             </form>
         </div><!-- /.search-popup__inner -->
     </div><!-- /.search-popup -->
-
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/TweenMax.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/jquery.validate.min.js"></script>
-    <script src="assets/js/bootstrap-select.min.js"></script>
-    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="assets/js/bootstrap-datepicker.min.js"></script>
-    <script src="assets/js/isotope.js"></script>
-
-    <!-- template scripts -->
-    <script src="assets/js/theme.js"></script>
-</body>
-
-</html>
+@endsection

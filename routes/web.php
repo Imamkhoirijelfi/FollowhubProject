@@ -22,5 +22,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('index');
 Route::resource('events', 'EventsController');
 Route::get('/events', 'EventsController@index')->name('events');
+Route::get('/about', 'AboutController@index')->name('about');
+Route::get('/program', 'ProgramController@index')->name('program');
+Route::get('/blog', 'BlogController@index')->name('blog');
 Route::get('/createEvent', 'EventsController@create')->name('createEvent');
 

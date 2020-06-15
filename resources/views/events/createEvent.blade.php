@@ -7,6 +7,7 @@
 
 <body>
 <form method="POST" action="{{route('events.store')}}" enctype="multipart/form-data">
+    @csrf
     <p>Nama Event :
         <input name="eventName" type="text" id="eventName" size="70" maxlength="70" />
     </p>
@@ -23,8 +24,7 @@
         <input name="description" type="text" id="description" size="500" maxlength="500" />
     </p>
     <p>
-        File Gambar
-        :
+        File Gambar :
         <input name="poster" type="file" id="poster" size="30" />
     </p>
     <p>

@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00adc1d8-5afe-42e0-b2e7-b0c2f9ca5059" name="Default Changelist" comment="" />
+    <list default="true" id="00adc1d8-5afe-42e0-b2e7-b0c2f9ca5059" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EventsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EventsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/events/createEvent.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/events/createEvent.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/events/events.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/events/events.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/programs.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/program.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +26,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -119,8 +136,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../perpus-laravel-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -167,6 +185,9 @@
       <workItem from="1589762969846" duration="9177000" />
       <workItem from="1589943897816" duration="23934000" />
       <workItem from="1591160144228" duration="4754000" />
+      <workItem from="1591238875239" duration="13817000" />
+      <workItem from="1592090558727" duration="2996000" />
+      <workItem from="1592183715912" duration="3389000" />
     </task>
     <servers />
   </component>
@@ -174,6 +195,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592185918835">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1592185918835" />
     <state x="413" y="120" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1589955187172">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -186,10 +211,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589711834265" />
-    <state x="337" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1591160439445">
+    <state x="337" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1592183988217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591160439445" />
+    <state x="337" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592183988217" />
     <state x="329" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589726984063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -198,5 +223,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="371" y="209" width="707" height="309" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.728@0.0.1366.728" timestamp="1589711793580" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1592090904499">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1592090904499" />
   </component>
 </project>
