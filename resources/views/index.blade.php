@@ -68,7 +68,7 @@
                     <div class="col-lg-4">
                         <div class="service-five__single">
                             <div class="service-five__single-inner">
-                                <h3><a href="#">Skill Impact</a></h3>
+                                <h3><a href="#">Best Performance</a></h3>
                                 <p>Sed ut perspiciatis unde omnis iste
                                     natus error sit voluptatem accusante
                                     um doloremque laudantium totam
@@ -79,7 +79,7 @@
                     <div class="col-lg-4">
                         <div class="service-five__single">
                             <div class="service-five__single-inner">
-                                <h3><a href="#">Social Impact</a></h3>
+                                <h3><a href="#">Easy Configuration</a></h3>
                                 <p>Sed ut perspiciatis unde omnis iste
                                     natus error sit voluptatem accusante
                                     um doloremque laudantium totam
@@ -90,7 +90,7 @@
                     <div class="col-lg-4">
                         <div class="service-five__single">
                             <div class="service-five__single-inner">
-                                <h3><a href="#">Sharing Impact</a></h3>
+                                <h3><a href="#">Best Security Sass</a></h3>
                                 <p>Sed ut perspiciatis unde omnis iste
                                     natus error sit voluptatem accusante
                                     um doloremque laudantium totam
@@ -117,10 +117,12 @@
                                 <h3>We Are Creative Experience Agency</h3>
                                 <div class="block-title__line"></div><!-- /.block-title__line -->
                             </div><!-- /.block-title -->
-                            <p>We help people connect in extraordinary ways.
-                            We are experience makers, content creators and creative activators, inspired by culture and fuelled by insights..</p>
-                            <h4>Follow to Connection and Get Experiences</h4>
-                            <p>We create distinct and data-driven experiences.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid dunt
+                                utlabore et dolore magna aliqua. Ut enim ad minim veniam weay.</p>
+                            <h4>We Are Always With You</h4>
+                            <p>But we must be dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip exea commodo consequat</p>
                             <!-- /.thm-btn -->
                         </div><!-- /.about-one__content -->
                     </div><!-- /.col-lg-6 -->
@@ -133,26 +135,26 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms">
                         <div class="funfact-one__single">
-                            <h3><span class="counter">1500</span><!-- /.counter -->+</h3>
+                            <h3><span class="counter">2500</span><!-- /.counter -->+</h3>
                             <p>Members</p>
                         </div><!-- /.funfact-one__single -->
                     </div><!-- /.col-lg-3 col-md-6 -->
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms">
                         <div class="funfact-one__single">
-                            <h3><span class="counter">250</span><!-- /.counter -->+</h3>
+                            <h3><span class="counter">2960</span><!-- /.counter -->+</h3>
                             <p>Events</p>
                         </div><!-- /.funfact-one__single -->
                     </div><!-- /.col-lg-3 col-md-6 -->
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms">
                         <div class="funfact-one__single">
-                            <h3><span class="counter">110</span><!-- /.counter -->
+                            <h3><span class="counter">5620</span><!-- /.counter -->
                             </h3>
                             <p>Program</p>
                         </div><!-- /.funfact-one__single -->
                     </div><!-- /.col-lg-3 col-md-6 -->
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms">
                         <div class="funfact-one__single">
-                            <h3><span class="counter">100</span><!-- /.counter -->+</h3>
+                            <h3><span class="counter">365</span><!-- /.counter -->+</h3>
                             <p>Partners</p>
                         </div><!-- /.funfact-one__single -->
                     </div><!-- /.col-lg-3 col-md-6 -->
