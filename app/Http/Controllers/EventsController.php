@@ -35,18 +35,26 @@ class EventsController extends Controller
 
     public function store(Request $request)
     {
+        $name = $request->get('eventName');
+        $dateTime = $request->get('dateTime');
+        $location = $request->get('location');
+        $hargaTiket = $request->get('hargaTiket');
+        $description = $request->get('description');
+
         $new_event = new \App\events();
-        $new_event->eventName = $request->get('eventName');
-        $new_event->dateTime = $request->get('dateTime');
-        $new_event->location = $request->get('location');
-        $new_event->hargaTiket = $request->get('hargaTiket');
-        $new_event->description = $request->get('description');
+        $new_event->evenName = $name;
         if($request->file('poster')){
-            $file = $request->file('poster')->store('event-image', 'public');
-            $new_event->poster = $file;
+            $image_path = $request->file('poster')
+                ->store('event_images', 'public');
+            $new_event->poster = $image_path;
         }
+        $new_event->dateTime = $dateTime;
+        $new_event->location = $location;
+        $new_event->hargaTiket = $hargaTiket;
+        $new_event->description = $description;
         $new_event->save();
-        return redirect('/events')->with('status', 'Category successfully created');
+
+        return redirect()->route('/events')->with('status', 'Category successfully created');
 
     }
 }

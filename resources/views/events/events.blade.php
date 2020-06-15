@@ -1,4 +1,49 @@
+{{--<!DOCTYPE html>--}}
+{{--<html lang="en">--}}
 
+{{--<head>--}}
+{{--    <meta charset="UTF-8">--}}
+{{--    <meta name="viewport" content="width=device-width, initial-scale=1.0">--}}
+{{--    <meta http-equiv="X-UA-Compatible" content="ie=edge">--}}
+{{--    <title>Followhub | Events</title>--}}
+{{--    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">--}}
+{{--    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">--}}
+{{--    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">--}}
+{{--    <link rel="manifest" href="assets/images/favicons/site.webmanifest">--}}
+
+{{--    <!-- plugin scripts -->--}}
+
+{{--    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,500,600,700&display=swap" rel="stylesheet">--}}
+
+{{--    <link rel="stylesheet" href="assets/css/gilroy-extrabold.css">--}}
+{{--    <link rel="stylesheet" href="assets/css/gilroy-light.css">--}}
+{{--    <link rel="stylesheet" href="assets/css/gilroy-semibold.css">--}}
+{{--    <link rel="stylesheet" href="assets/css/gilroy-bold.css">--}}
+
+{{--    <link rel="stylesheet" href="assets/css/animate.min.css">--}}
+{{--    <link rel="stylesheet" href="assets/css/bootstrap.min.css">--}}
+{{--    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">--}}
+{{--    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">--}}
+{{--    <link rel="stylesheet" href="assets/css/magnific-popup.css">--}}
+{{--    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">--}}
+{{--    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">--}}
+{{--    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">--}}
+{{--    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">--}}
+
+
+
+{{--    <!-- template styles -->--}}
+{{--    <link rel="stylesheet" href="assets/css/style.css">--}}
+{{--    <link rel="stylesheet" href="assets/css/responsive.css">--}}
+
+
+
+
+
+
+{{--</head>--}}
+
+{{--<body>--}}
 @extends("layouts.app2")
 @section("title")
     Events
@@ -29,7 +74,7 @@
                                 <a href="{{route('events') }}">Events</a>
                             </li>
                             <li>
-                                <a href="{{route('about') }}">About</a>
+                                <a href="about.html">About</a>
                             </li>
                             <li class="">
                                 <a href="blog.html">Blog</a>
@@ -64,8 +109,6 @@
                     <div class="tab-pane show active  animated fadeInUp" id="monthly">
                         <div class="row">
                             @foreach($events as $event)
-
-
                             <div class="col-lg-4">
                                 <div class="pricing-two__single">
                             <div class="pricing-two__top">
@@ -75,14 +118,13 @@
                                     <h3 class="sidebar__title">{{$event->eventName}}
                                         <span></span>
                                     </h3><!-- /.sidebar__title -->
-                                    <div>
+                                    <div class="">
                                         <div class="sidebar__post-content">
                                             <h3>Tanggal & Waktu</h3>
                                             <span>{{$event->dateTime}}</span>
 
                                         </div><!-- /.sidebar__post-content -->
                                     </div><!-- /.sidebar__post-single -->
-
                                     <div class="sidebar__post-single">
                                         <div class="sidebar__post-content">
                                             <h3>Lokasi</h3>
@@ -95,11 +137,11 @@
                                     </div><!-- /.sidebar__post-content -->
                                 </div><!-- /.sidebar__post-single -->
                                 <table>
-                                    <tr height ="50px">
-                                        <td align="left" valign="middle" width="300px" > <p> <b>Tiket: </b> {{$event->hargaTiket}} IDR</p></td>
-                                        <td align="left" valign="middle">
+                                    <tr>
+                                        <th width="300px"> <p> <b>Tiket : {{$event->hargaTiket}} IDR</b></p></th>
+                                        <th>
                                             <p> <a href="event-details.html" class="thm-btn pricing-one__btn pricing-two__btn">Selengkapnya</a><!-- /.thm-btn pricing-one__btn -->
-                                            </p></td>
+                                            </p></th>
 
                                     </tr>
 

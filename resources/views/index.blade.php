@@ -19,19 +19,19 @@
                     <div class="main-nav__main-navigation">
                         <ul class=" main-nav__navigation-box">
                             <li class="">
-                                <a href="{{route('index')}}">Home</a>
+                                <a href="index.blade.php">Home</a>
                             </li>
                             <li class="">
-                                <a href="{{route('program')}}">Programs</a>
+                                <a href="programs.html">Programs</a>
                             </li>
                             <li class="">
                                 <a href="{{route('events') }}">Events</a>
                             </li>
                             <li>
-                                <a href="{{route('about')}}">About</a>
+                                <a href="about.html">About</a>
                             </li>
                             <li class="">
-                                <a href="{{route('blog')}}">Blog</a>
+                                <a href="blog.html">Blog</a>
                             </li>
                         </ul>
                     </div><!-- /.main-nav__main-navigation -->
